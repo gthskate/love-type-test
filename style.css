@@ -252,15 +252,20 @@ button {
 =========================== */
 @media (max-width: 600px) {
 
-  body {
-    padding: 0;              /* ← ここを必ず0に */
-  }
+  .title-main {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
 
- .title-main {
-  font-size: 17px;     /* ← 20 → 17px にするとほぼ絶対収まる */
-  padding: 10px 12px;
-  white-space: nowrap;
+    font-size: 20px;              /* 適正サイズ */
+    padding: 10px 12px;           /* ★ 横の余白を小さくする（重要） */
+
+    max-width: 95%;               /* ★ 画面の95%にすることで左右に余白を作る */
+    white-space: nowrap;          /* 一行にする */
+    box-sizing: border-box;       /* はみ出し防止 */
+  }
 }
+
 
 
   .start-area {
