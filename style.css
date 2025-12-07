@@ -1,8 +1,8 @@
 body {
   font-family: sans-serif;
-  /* max-width: 600px; ← スマホ最適化のため削除 */
-  margin: 30px auto;
-  padding: 10px;
+  margin: 0;             /* ← 全部消す！ */
+  padding: 0;
+  width: 100%;
   line-height: 1.6;
 }
 
@@ -203,6 +203,7 @@ button {
 
 .question-card {
   max-width: 680px;
+  width: 100%;   /* ← スマホで画面幅いっぱいにする */
   margin: 80px auto;          /* ← タイトルとの距離を広げる */
   padding: 40px 36px;         /* ← 内側の余白を増やす（読みやすい） */
 
@@ -254,6 +255,7 @@ button {
   /* カード全体 */
   .question-card {
     max-width: 100% !important;  /* ← 最強の上書き */
+    width: 100% !important;   /* ← 最強の保険 */
     padding: 22px 18px;
     margin: 20px auto;
     border-radius: 16px;
