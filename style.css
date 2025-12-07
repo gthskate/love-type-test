@@ -118,7 +118,7 @@ button {
   width: 100%; 
   max-width: 680px; 
   margin: 0 auto 40px;
-  
+
   margin-bottom: 40px;
   text-align: center;
 
@@ -275,11 +275,29 @@ button {
   }
 
   /* 回答ボタン */
-  .answer-btn {
-    width: 100%;        /* ← ボタンを横幅いっぱいに */
-    height: 46px;
-    font-size: 15px;
-    margin: 6px 0;      /* 間隔も調整 */
+  /* ★ ここを置き換えればOK（色は変えずレイアウトのみ変更） */
+.answer-btn {
+  width: 100%;        /* ← 横幅いっぱい */
+  height: 48px;
+  padding: 14px 16px;
+  font-size: 16px;
+  margin: 6px 0;      /* ← 縦の余白 */
+
+  border-radius: 12px;
+  border: 2px solid #bbbbbb;
+
+  background: #4f7cff;   /* ← 色はそのまま */
+  color: white;
+
+  cursor: pointer;
+  white-space: nowrap;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.2s ease;
+}
   }
 
   /* ボタンを縦並びに */
@@ -288,4 +306,4 @@ button {
     gap: 10px;
     width: 100%;
   }
-}
+
