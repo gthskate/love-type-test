@@ -269,12 +269,12 @@ button {
 /* 「診断を始める」ボタン調整 */
   .start-btn,
   .answer-btn {
-    display: block;
-    width: 100%;
-    max-width: 95%;      /* ← 画面から少し余白を作る */
-    margin: 0 auto 20px; /* ← 完全中央寄せ＋下に余白 */
-    padding: 14px 10px;  /* ← はみ出し防止のため横余白を少し小さく */
-    box-sizing: border-box;
+    width: 100% !important;        /* ← 最強 */
+    max-width: 95% !important;     /* ← 幅をスマホにフィット */
+    margin: 0 auto 16px !important;/* ← 中央寄せ */
+    padding: 14px 10px !important; /* ← 横余白を小さく */
+    box-sizing: border-box !important;
+    display: block !important;
   }
 
 
