@@ -250,12 +250,12 @@ button {
   }
 
   /* タイトル（h1） */
-  .title-main {
-    font-size: 24px;
-    padding: 14px 20px;
-    border-radius: 16px;
-    max-width: 100%;
-  }
+ .title-main {
+  display: block;        /* ★重要：inline-block だとズレるので block に */
+  margin: 0 auto;        /* ★中央揃え */
+  text-align: center;
+}
+
 
   /* カード全体 */
   .question-card {
