@@ -253,7 +253,7 @@ button {
 
   /* カード全体 */
   .question-card {
-    max-width: 100%;
+    max-width: 100% !important;  /* ← 最強の上書き */
     padding: 22px 18px;
     margin: 20px auto;
     border-radius: 16px;
