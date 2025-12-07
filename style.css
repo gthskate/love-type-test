@@ -259,11 +259,13 @@ button {
 
   /* カード全体 */
   .question-card {
-    max-width: 100% !important;  /* ← 最強の上書き */
-    width: 100% !important;   /* ← 最強の保険 */
-    padding: 22px 18px;
+    max-width: 100% !important;
+    width: 100% !important;
+
+    padding: 16px 14px;  /* ← これが超重要！左右を小さく */
     margin: 20px auto;
     border-radius: 16px;
+    box-sizing: border-box;   /* ← これも重要（必ず入れる） */
   }
 
   .question-card h2 {
