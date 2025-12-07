@@ -184,6 +184,7 @@ button {
   animation-delay: 0.1s;
 }
 
+.question-card { box-sizing: border-box; }
 
 @keyframes fadeIn {
   to {
