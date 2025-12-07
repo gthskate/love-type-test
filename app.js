@@ -8,7 +8,7 @@ const questions = [
   },
   {
     id: "q2",
-    text: "恋人とはどれくらいの頻度で連絡を取りたいですか？",
+    text: "恋人とは頻繁に連絡を取りたいですか？",
     axisWeights: { distance: 1 }
   },
   {
@@ -58,7 +58,7 @@ const questions = [
   },
   {
     id: "q12",
-    text: "束縛についてどう感じますか？（嫌い=1、平気=5）",
+    text: "束縛はしないタイプですか？",
     axisWeights: { distance: 1, stability: 0.5 }
   },
 ];
