@@ -256,15 +256,12 @@ button {
     padding: 0;              /* ← ここを必ず0に */
   }
 
-  .title-main {
-    display: block;
-    margin: 0 auto 40px;     /* ← 中央固定 */
-    text-align: center;
-    max-width: 100%;
-    font-size: 20px; 
-    padding: 12px 14px; 
-    white-space: nowrap; 
-  }
+ .title-main {
+  font-size: 17px;     /* ← 20 → 17px にするとほぼ絶対収まる */
+  padding: 10px 12px;
+  white-space: nowrap;
+}
+
 
   .start-area {
     width: 100%;
